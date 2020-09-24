@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Welcome</title>
+</head>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+h2 {text-align: center;}
+
+</style>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            
+                
+                   
+        </div>
+    </nav>
+    <header class="jumbotron">
+        <div class="container">
+
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Welcome</h1>
+                    <h2>Sign in Successfull</h2>
+                </div>
+               <div id="login" class="animate form">
+            <form  action="./login.html" autocomplete="on"> 
+                <h1>Log in</h1> 
+                <p> 
+                    <label for="username" class="uname" data-icon="u" > Your email or username </label>
+                    <input id="username" name="username" required="required" type="text" placeholder="Username/Email"/>
+                </p>
+                <p> 
+                    <label for="password" class="youpasswd" data-icon="p"> Your password </label>
+                    <input id="password" name="password" required="required" type="password" placeholder="X8df!90EO" /> 
+                </p>
+                <p class="keeplogin"> 
+                    <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" href="./login.html"  /> 
+                    <label for="loginkeeping">Keep me logged in</label>
+                </p> 
+                <p  href="./login.html" class="login"> 
+                    
+                    <input type="submit" value="Login" /> 
+                </p>
+                
+            </form>
+        </div>
+
+                
+        </div>
+    </header>
+
+   
+
+   
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
